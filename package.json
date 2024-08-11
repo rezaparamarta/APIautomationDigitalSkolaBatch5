@@ -4,7 +4,8 @@
   "description": "This is an automation API call with library",
   "main": "index.js",
   "scripts": {
-    "test": "mocha latihanAPIautomation/getRequest.js"
+    "testGet": "mocha latihanAPIautomation/getRequest.js",
+    "testPost": "mocha latihanAPIautomation/postRequest.js"
   },
   "keywords": [],
   "author": "Reza Paramarta",
