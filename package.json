@@ -1,13 +1,13 @@
 {
   "name": "apiautomationdigitalskola",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is an automation API call with library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha latihanAPIautomation/getRequest.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Reza Paramarta",
   "license": "ISC",
   "devDependencies": {
     "chai": "^5.1.1",
